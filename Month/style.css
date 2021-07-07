@@ -1,0 +1,48 @@
+body {
+	margin: 0px;
+}
+nav {
+	border-right: 2px solid gray;
+	width: 120px;
+}
+nav ul {
+	padding-left: 10px;
+}
+#title {
+	border-bottom: 2px solid gray;
+	margin: 0px;
+	padding: 20px;
+}
+#main {
+	display: grid;
+	grid-template-columns: 130px 1fr;
+}
+table.month {
+	border-collapse: collapse;
+	text-align: center;
+	margin: 5px;
+	width: 500px;
+}
+table.month caption {
+	text-align: right;
+}
+table.month th {W
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+table.month td {
+	padding: 10px;
+	vertical-align: top;
+	border: 1px solid #ccc;
+	text-align: left;
+	font-size: 8px;
+	padding: 5px 40px 40px 5px;
+}
+table.month .Sun {
+	color: red;
+}
+table.month .Sat {
+	color: blue;
+}
