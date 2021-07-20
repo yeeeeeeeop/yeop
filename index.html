@@ -3,28 +3,44 @@
 	<head>
 		<meta charset="utf-8">
 		<title>2021 Monthly Scheduler</title>
+		<link rel="stylesheet" href="design/default_design.css">
+		<style>
+			a {
+				color: black;
+				text-decoration: none;
+			}
+			ul {
+				list-style-type: none;
+				display: grid;
+				grid-template-rows: 1rem 2rem 3rem;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>
+		<h1 id="title">
 			<a href="index.html">2021 Monthly Scheduler</a>
 		</h1>
 		<!--월-->
-		<nav><!--월--> 
-			<ul>
-				<li><a href="Month/01January.html">January</a></li>
-				<li><a href="Month/02February.html">February</a></li>
-				<li><a href="Month/03March.html">March</a></li>
-				<li><a href="Month/04April.html">April</a></li>
-				<li><a href="Month/05May.html">May</a></li>
-				<li><a href="Month/06June.html">June</a></li>
-				<li><a href="Month/07July.html">July</a></li>
-				<li><a href="Month/08August.html">August</a></li>
-				<li><a href="Month/09September.html">September</a></li>
-				<li><a href="Month/10October.html">October</a></li>
-				<li><a href="Month/11November.html">November</a></li>
-				<li><a href="Month/12December.html">December</a></li>
-			</ul>
-		</nav>
+		<ul>
+			<div id="1to4">
+				<li style="display: inline;"><a href="Month/01January.html">January</a></li>
+				<li style="display: inline;"><a href="Month/02February.html">February</a></li>
+				<li style="display: inline;"><a href="Month/03March.html">March</a></li>
+				<li style="display: inline;"><a href="Month/04April.html">April</a></li>
+			</div>
+			<div id="5to8">
+				<li style="display: inline;"><a href="Month/05May.html">May</a></li>
+				<li style="display: inline;"><a href="Month/06June.html">June</a></li>
+				<li style="display: inline;"><a href="Month/07July.html">July</a></li>
+				<li style="display: inline;"><a href="Month/08August.html">August</a></li>
+			</div>
+			<div id="9to12">
+				<li style="display: inline;"><a href="Month/09September.html">September</a></li>
+				<li style="display: inline;"><a href="Month/10October.html">October</a></li>
+				<li style="display: inline;"><a href="Month/11November.html">November</a></li>
+				<li style="display: inline;"><a href="Month/12December.html">December</a></li>
+			</div>
+		</ul>
 		
 	</body>
 </html>

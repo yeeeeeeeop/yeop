@@ -1,22 +1,3 @@
-body {
-	margin: 0px;
-}
-nav {
-	border-right: 2px solid gray;
-	width: 120px;
-}
-nav ul {
-	padding-left: 10px;
-}
-#title {
-	border-bottom: 2px solid gray;
-	margin: 0px;
-	padding: 20px;
-}
-#main {
-	display: grid;
-	grid-template-columns: 130px 1fr;
-}
 table.month {
 	border-collapse: collapse;
 	text-align: center;
@@ -26,7 +7,7 @@ table.month {
 table.month caption {
 	text-align: right;
 }
-table.month th {W
+table.month th {
 	padding: 10px;
 	font-weight: bold;
 	vertical-align: top;
